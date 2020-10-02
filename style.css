@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(300deg, #CED1D6, #BFC0C0);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 400px;
+    background-color: #848C9B;
+
+    box-shadow: 7px 5px 10px rgba(96, 105, 192, 0.3);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 400px;
+    height: 280px;
+
+    background-image: url('https://images.unsplash.com/photo-1582888749476-b3b8d438bda2?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300');
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather {
+    text-align: center;
+    border-bottom: 1px solid #848C9B;
+    width: 100%;
+    height: 100%;
+
+    color: #e6e6e6;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   
+    object-fit: cover;
+}
+
+.weather .city {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.weather h2 {
+    font-size: 48px;
+    margin-bottom: 0;
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.weather small  {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.middle {
+    color: rgb(0, 0, 0);
+    height: 400px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.middle ul {
+    list-style: none;
+
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.middle ul li{
+    color:#848C9B;
+    font-size: 18px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle ul img {
+    width: 18px;
+    margin-right: 6px;
+}
+
+.middle ul strong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 400px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    padding: 1rem;
+    min-width: 300px;
+}
